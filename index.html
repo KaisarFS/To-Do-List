@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hacktiv8 Todo</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <div>
+        <h1>Hacktiv8 Todo</h1>
+      </div>
+      <div class="statistic">
+        <h2>Todo statistic</h2>
+        <div class="statistic-container">
+          <div class="statistic-box">
+            <p>Done</p>
+            <p class="number" id="doneNumber">1</p>
+          </div>
+          <div class="statistic-box">
+            <p>Ongoing</p>
+            <p class="number" id="ongoingNumber">1</p>
+          </div>
+          <div class="statistic-box">
+            <p>Pending</p>
+            <p class="number" id="pendingNumber">1</p>
+          </div>
+        </div>
+      </div>
+      <div class="todo-box">
+        <h2>Todo List</h2>
+        
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
